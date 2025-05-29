@@ -1,0 +1,58 @@
+@charset "uft-8";        
+
+* {margin: 0;padding: 0;}
+        a {text-decoration: none;}
+        ul {list-style:none;}
+        body { font-size: 14px; font-family:Arial, sans-serif;}
+        /*
+        .nav {width:200px ;} /*세로*/
+        .nav {width:1000px ;} /*가로*/
+        .nav > li {      /*가로 추가 */
+            width: 200px;
+            float:left;
+        }
+        /*가로 추가*/
+
+        .nav > li > a {
+            display: block;
+            background-color: #000;
+            color:#fff;
+            border-bottom: 1px solid #efefef;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .nav > li {      /*추가 */
+            width: 200px;
+            float:left;
+        }
+
+        .nav > li > a:hover {
+            color:red;
+        }
+        .submenu {
+            height: 0;
+            overflow: hidden; /* 숨기기 */
+            transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+            -ms-transition-duration: 1s;
+        }
+
+        .submenu li a {
+            display: block;
+            background-color: #999;
+            text-align: center;
+            line-height: 40px;
+            border-bottom: 1px solid #d19191;
+            color:#000;
+        }
+
+        .submenu li a:hover {
+            background-color: yellow;
+            color: pink;
+        }
+        /* +의 의미 : hover 할 떼 다음 클래스 */
+        .nav > li > a:hover + .submenu { 
+            height: 164px;
+        }

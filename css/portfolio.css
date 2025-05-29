@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=East+Sea+Dokdo&family=Gamja+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    border: 0;
+    vertical-align: top;
+}
+
+.blind{
+    position: absolute;
+    left: -9990em;
+}
+
+body{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    line-height: 2em;
+    background-color: #333;
+}
+
+#wrap{
+    width: 1600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    background-color: #B96BC6;
+    color: #fff;
+}
+
+#header > h1{
+    font-family: '42dot+Sans', sans-serif;
+    text-align: center;
+    padding: 30px 0;   
+   
+}
+
+.nav li{
+    line-height: 30px;
+    margin-bottom: 5px;     
+    text-indent: 30px;     
+}
+
+.nav li a{
+    display: block;
+    color: #ddd;
+    font-size: 12px;    
+              
+}
+/*
+.nav>title {
+    font-weight: 900;
+    font-size: 2em;
+    color:red;
+}
+*/
+.nav li a span{
+    color: #b6ff00;
+}
+
+.search_area{
+    width: 160px;
+    margin: 0 auto;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+}
+
+.search_area input[type="search"]{
+    display: block;
+    width: 100px;
+    height: 26px;
+    float: left;
+    background-color: #666;
+    border: 1px solid gray;
+    color: #fff;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.search_area input[type="submit"]{
+    display: block;
+    width: 60px;
+    height: 26px;
+    float: left;
+    background-color: #000;
+    border: 1px solid gray;
+    color: #999;
+    cursor: pointer;
+}
+
+#contents{
+    width: 1400px; margin-left: 200px;
+    background-color: #ffcd4a;
+    overflow: hidden;
+}
+
+.main_visual{
+    width: 1200px; height: 399px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.main_visual button{
+    width: 150px; height: 150px;
+    position: absolute;
+    /* top:50%; 
+    left:50%
+    margin-top:-75px;
+    margin-left:-75px;
+    */
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    border-radius: 50%;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 3em; /*body에서 14pt 3배임*/
+    cursor: pointer;
+}
+
+.product{
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.product li{
+    float: left;
+    width: 250px;
+    height: 355px;
+    margin: 10px 25px 20px;
+}
+
+.product li a{
+    display: block;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 2);
+    -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 2);
+    -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 2);
+    -o-box-shadow: 4px 4px 5px rgba(0, 0, 0, 2);
+    -ms-box-shadow: 4px 4px 5px rgba(0, 0, 0, 2);
+}

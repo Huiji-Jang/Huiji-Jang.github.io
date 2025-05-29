@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형메뉴</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style:none;
+        }
+        a{
+            text-decoration: none;
+            color:inherit;
+        }
+        /*모바일 화면사이즈 */
+        ul li a {
+            display: block;
+            height: 50px;
+            background-color: orange;
+            border-top:1px solid #ddd;
+            line-height: 50px;
+            font-size: 1.3rem;
+        }
+        /* 테블릿화면 :최소넓이 600px 일때 메뉴1-4번 2단, 메뉴 5번 1단 좌측보더회색, 우측테두리 검정색, 텍스트중간 정렬*/
+        @media screen and (min-width: 600px) {
+            ul li {
+                float: left;
+                width: 50%;
+            }
+            ul li:last-child {
+                width: 100%;
+            }
+            ul li a {
+                border-left: 1px solid #ddd;
+                border-right: 1px solid #000;
+                text-align: center;
+            }
+        }
+        /* 데스크탑화면 : 최소넓이 960px 일때 메뉴1-5번 모두 가로 정렬*/
+        @media screen and (min-width: 960px) {
+            ul li {
+                width: 20%;
+            }
+            ul li:last-child {
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#">menu1</a></li>
+        <li><a href="#">menu2</a></li>
+        <li><a href="#">menu3</a></li>
+        <li><a href="#">menu4</a></li>
+        <li><a href="#">menu5</a></li>
+    </ul>
+</body>
+</html>
