@@ -127,7 +127,7 @@ background-position: center top; */
 .section1 .quick h3 {
     margin: 55px 30px 30px 30px;
     font-size: 28px;
-    background: url(../img/index_img/arrow.jpg) no-repeat right;
+    background: url(img/index_img/arrow.jpg) no-repeat right;
     /* 주의: 앞에 background-repeat , background-position 등 주석처리할것 */
 }
 
@@ -168,11 +168,11 @@ background-position: center top; */
 
 
 .section2 .intro1 {
-    background-image: url(../img/index_img/ck-icon1.png);
+    background-image: url(img/index_img/ck-icon1.png);
     margin-right: 180px;
 }
 
 
 .section2 .intro2 {
-    background-image: url(../img/index_img/ck-icon2.png);
+    background-image: url(img/index_img/ck-icon2.png);
 }
