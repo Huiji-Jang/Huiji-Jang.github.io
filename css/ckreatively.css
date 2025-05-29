@@ -8,7 +8,7 @@
 /* background-image: url(./img/pc-cover-main.jpg);
 background-repeat: no-repeat;
 background-position: center top; */
-    background: url(../img/index_img/main.png) no-repeat center top;
+    background: url(img/index_img/main.png) no-repeat center top;
     background-size: cover; /* 박스를 꽉채운다 이미지가 잘린다 */
 }
 
@@ -54,7 +54,7 @@ background-position: center top; */
 .section1 .quick h3 {
     margin: 55px 30px 30px 30px;
     font-size: 28px;
-    background: url(../img/index_img/arrow.jpg) no-repeat right;
+    background: url(img/index_img/arrow.jpg) no-repeat right;
 /* 주의: 앞에 background-repeat , background-position 등 주석처리할것 */
 }
 
@@ -85,14 +85,14 @@ background-position: center top; */
 }
 
 .section2 .intro1 {
-    background: url(../img/index_img/ck-icon1.png) no-repeat right center;    
+    background: url(img/index_img/ck-icon1.png) no-repeat right center;    
     margin-right: 180px;   
     padding-top: 80px;
     padding-bottom: 80px; 
 }
 
 .section2 .intro2 {
-    background: url(../img/index_img/ck-icon2.png) no-repeat right center;   
+    background: url(img/index_img/ck-icon2.png) no-repeat right center;   
     padding-top: 80px;
     padding-bottom: 80px; 
 }
