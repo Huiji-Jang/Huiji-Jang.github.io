@@ -40,7 +40,7 @@ header h1 {
     width:45px; height:34px;
     position:absolute;
     top:23px; right:20px;
-    background:url(../img/introduce-img/allmenu.png) no-repeat;
+    background:url(img/introduce-img/allmenu.png) no-repeat;
     text-indent:-9999px;  
 }
 
@@ -82,11 +82,11 @@ section h2 {
 }
 
 .message::before {
-    content: url(../img/introduce-img/quot-1.png);
+    content: url(img/introduce-img/quot-1.png);
 }
 
 .message::after {
-    content: url(../img/introduce-img/quot-2.png);
+    content: url(img/introduce-img/quot-2.png);
     display: block;
 }
 
@@ -147,7 +147,7 @@ footer {
     width: 32px;
     height: 32px;
     margin-right: 20px;
-    background: url(./meta/images/icon_sns.png) no-repeat;
+    background: url(meta/images/icon_sns.png) no-repeat;
     text-indent: -999px;
 }
 
